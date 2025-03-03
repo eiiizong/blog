@@ -2,6 +2,8 @@
 title: Markdown
 tags:
   - markdown
+createTime: 2025/03/03 15:37:34
+permalink: /article/7ezskcx7/
 ---
 
 ## 标题 2
@@ -39,24 +41,24 @@ H~2~O
 内容右对齐
 :::
 
-- 无序列表1
-- 无序列表2
-- 无序列表3
+- 无序列表 1
+- 无序列表 2
+- 无序列表 3
 
-1. 有序列表1
-2. 有序列表2
-3. 有序列表3
+1. 有序列表 1
+2. 有序列表 2
+3. 有序列表 3
 
-- [ ] 任务列表1
-- [ ] 任务列表2
-- [x] 任务列表3
-- [x] 任务列表4
+- [ ] 任务列表 1
+- [ ] 任务列表 2
+- [x] 任务列表 3
+- [x] 任务列表 4
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 > 引用内容
 >
@@ -82,6 +84,7 @@ H~2~O
 **demo wrapper：**
 
 ::: demo-wrapper title="示例" no-padding height="200px"
+
 <style scoped>
 .open-door {
   display: flex;
@@ -113,11 +116,12 @@ const obj = {
     deep: {
       deep: {
         deep: {
-          value: 'this is to long text. this is to long text. this is to long text. this is to long text.', // [!code highlight]
-        }
-      }
-    }
-  }
+          value:
+            'this is to long text. this is to long text. this is to long text. this is to long text.', // [!code highlight]
+        },
+      },
+    },
+  },
 }
 ```
 
@@ -288,19 +292,19 @@ app.appendChild(window.document.createElement('small')).textContent = a
 **选项卡：**
 
 ::: tabs
-@tab 标题1
+@tab 标题 1
 内容区块
 
-@tab 标题2
+@tab 标题 2
 内容区块
 :::
 
 :::: warning
 ::: tabs
-@tab 标题1
+@tab 标题 1
 内容区块
 
-@tab 标题2
+@tab 标题 2
 内容区块
 :::
 ::::
